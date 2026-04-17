@@ -1,0 +1,57 @@
+name: recipe_book
+description: A local recipe book Flutter application with SQLite & Firebase
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # قاعدة البيانات المحلية
+  sqflite: ^2.3.0
+  path: ^1.8.3
+
+  # إدارة الحالة
+  provider: ^6.1.1
+
+  # حفظ إعدادات بسيطة
+  shared_preferences: ^2.2.2
+
+  # اختيار الصور
+  image_picker: ^1.0.7
+
+  # ==== Firebase ====
+  firebase_core: ^3.6.0
+  cloud_firestore: ^5.4.4   # لقاعدة البيانات في السحابة (اختياري دلوقتي لكن هنحتاجه قريب)
+  firebase_storage: ^12.3.2 # لرفع الصور (مهم جدًا للـ Recipe Book)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_native_splash: ^2.4.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/splash.png
+  android_12:
+    image: assets/images/splash.png
+    color: "#ffffff"
+  ios: true
+  android: true
+  web: false
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+  min_sdk_android: 21

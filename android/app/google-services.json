@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "134421739723",
+    "project_id": "fluuter1-78c68",
+    "storage_bucket": "fluuter1-78c68.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134421739723:android:bcb3fa7b93212ccd36034e",
+        "android_client_info": {
+          "package_name": "com.example.quick"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBQA5xcspu-T99NWXT8tNCY0_u3cHk99w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
